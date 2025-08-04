@@ -1,5 +1,4 @@
-# Serverless Security Automation & Remediation (Advanced Cloud Security)
-
+# Serverless Security Automation & Remediation
 ## 🚀 Overview
 This project showcases a serverless solution using AWS Lambda to detect and remediate security misconfigurations in AWS environments — such as public S3 buckets. Built with Python/Boto3, it leverages CloudTrail, CloudWatch, GuardDuty, and SNS for real-time automation, logging, and alerts.
 
@@ -25,4 +24,4 @@ I’m a cloud security enthusiast focused on building practical, hands-on skills
 
 ## 📄 Full Lab Walkthrough
 For the full step-by-step documentation of this lab (with code, setup, and screenshots), visit:  
-👉 [**Full Lab Write-Up**](https://github.com/jmcoded0/Serverless-Threat-Detection-Auto-Remediation-Lab/blob/main/documenting.md)
+👉 [**Full Lab Write-Up**](https://github.com/jmcoded0/AWS-S3-Serverless-Auto-Remediation-for-Public-Access/blob/main/documenting.md)
