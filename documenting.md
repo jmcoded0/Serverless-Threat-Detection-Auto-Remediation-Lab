@@ -1,3 +1,20 @@
+# ⚡ AWS S3 Serverless Auto-Remediation for Public Access
+Category: Cloud Security | Serverless | Threat Detection & Response  
+
+📌 **Project Overview**  
+This project implements a **serverless workflow to detect and automatically remediate insecure AWS S3 bucket configurations**.  
+I deployed a misconfigured S3 bucket to allow public access, then built an automated response pipeline using **Lambda, CloudTrail, EventBridge, and SNS** to detect violations, fix them, and send alerts in real time — all without using EC2.  
+
+In a real-world environment, this solution helps security teams **prevent data exposure instantly** by revoking risky permissions within seconds of detection.  
+
+🛠 **Tech Stack**  
+- AWS Services: S3, Lambda, IAM, CloudTrail, EventBridge, SNS  
+- Programming: Python (Boto3)  
+- IaC: Terraform  
+- Security Mapping: MITRE ATT&CK – T1530 (Data from Cloud Storage Object)  
+
+🗂 **Architecture**  
+Public File Upload → S3 Bucket Event → Lambda Remediation → ACL/Policy Fix → SNS Alert → Email Notification  
 
 ## ⚙️ Phase 1: Infrastructure Setup with Terraform
 
